@@ -2,11 +2,15 @@
 
 def admin_login(username, password):
     # your code here
-    pass
-
+    if (username == 'admin' or username == 'ADMIN') and password == '12345':
+        return "Access granted"
+    else:
+        return "Access denied"
+    
 def hows_the_weather(temperature):
     # your code here
-    pass
+  if temperature == 33:
+      return
 
 def fizzbuzz(num):
     # your code here
